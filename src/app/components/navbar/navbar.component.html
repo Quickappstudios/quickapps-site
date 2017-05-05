@@ -1,0 +1,114 @@
+ 
+          <nav class="navbar bg-faded navbar-fixed-top"id="navbar" 
+          >
+    <ul class="cf">
+       
+       <!--logo-->
+       <div class="navbar-header">
+       <a class="navbar-brand" href="#">
+           <img class="logo" alt="Brand" src="assets/images/logo.png"></a>
+        </div>
+      
+      
+      
+      
+      <!--mobile collapse-->
+
+      <!--navbar is hidden from medium up-->
+       <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" data-toggle="modal" data-target="#nav-modal" aria-expanded="false">
+    &#9776;
+    </button>
+
+<!--hide on md up the desktop navbar-->
+    <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+
+       
+        
+     <li><a class="active" routerLink ="/">Intro</a> </li>
+     <li><a routerLink ="about">Tell Your Story</a> </li>
+        
+          
+          
+          <li>
+           
+           <a class="dropdown" href="#">Opportunity Tips</a>
+            <ul class="mydropdown">
+               
+               <li><a routerLink ="tips">Tips</a></li>
+
+               <li><a routerLink ="business">Business</a></li>
+
+               <li><a routerLink ="videos">Videos</a></li>
+
+             
+                
+            </ul>
+            </li>
+            
+            
+        
+    
+            <li>
+           
+           <a class="dropdown" href="#">Tools</a>
+            <ul class="mydropdown">
+                <li><a routerLink ="quickweb">QuickWeb</a></li>
+                <li><a routerLink ="quickgraphics">QuickGraphics</a></li>
+                <li><a routerLink ="quickshop">QuickShop</a></li>
+                <li><a routerLink ="cms">CMS</a></li>
+                
+                
+            </ul>
+            </li>
+            
+                 
+                
+        <li><a routerLink ="contact">Contact Us</a></li>
+        </div>
+    </ul>
+</nav>
+
+
+
+
+
+
+
+<!--Modal MObile Navbar Overlay-->
+<div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-nav-content">
+        
+      
+      
+      
+      <div class="modal-nav-body">
+
+<!--close Button-->
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <span class="glyphicon glyphicon-remove"></span></a>
+       
+           
+
+<ul>
+
+    <li><a class="active" routerLink ="/">Intro</a> </li>
+     <li><a routerLink ="about">Tell Your Story</a> </li>
+     <li><a routerLink ="tips">Tips</a></li>
+
+               <li><a routerLink ="business">Business</a></li>
+
+               <li><a routerLink ="video">Videos</a></li>
+
+               <li><a routerLink ="quickweb">QuickWeb</a></li>
+                <li><a routerLink ="quickgraphics">Quickgraphics</a></li>
+                <li><a routerLink ="quickshop">Quickshop</a></li>
+                <li><a routerLink ="cms">CMS</a></li>
+
+
+
+        </ul>
+     </div>
+    </div>
+  </div>
+</div>

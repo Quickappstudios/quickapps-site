@@ -1,0 +1,95 @@
+
+
+/*backround video*/
+#video-bg{
+
+    background-color:black;
+    padding-top:120px;
+    padding-bottom:90px;
+}
+
+
+
+.Video-heading{
+
+padding-top:90px;
+padding-bottom:90px;
+background:white;
+
+
+}
+
+
+.Video-heading h2{
+font-family: 'Varela Round', sans-serif!important;
+font-size:70px;
+text-align:center;
+color:black;
+padding-bottom:50px;
+
+
+}
+
+
+/*Videos Holder*/
+.videos{
+margin-top:-70px;
+  background-color:#1E1E2A;
+    padding:90px;
+    color:white;
+}
+
+.videos h2{
+font-size:30px;
+   margin-left:15%;
+   padding-bottom:15px;
+}
+
+
+
+
+/*Video swipper Category Videos*/
+
+swiper-container.swiper-container-horizontal {
+    height: 350px!important;
+    width: 100%!important;
+}
+
+
+
+
+   
+    ks-swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background:#212130;
+        border:1px solid white;
+        width: 100%;
+        height:350px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide:nth-child(2n) {
+        width: 40%;
+    }
+    .swiper-slide:nth-child(3n) {
+        width: 20%;
+    }
+
+/*sets Pagination Color*/
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white!important;
+}
+
+

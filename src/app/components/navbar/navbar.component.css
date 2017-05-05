@@ -1,0 +1,650 @@
+
+
+
+
+/********************************************************************
+*  CUSTOM FONTS
+********************************************************************/
+
+@font-face {
+font-family:Oswald-Stencil;
+src: url("Oswald-Stencil.otf") format("opentype");
+}
+
+
+
+/********************************************************************
+* Navigation Transparency
+********************************************************************/
+/*Change navbar color on scroll to orange color*/
+.navbar-fixed-top.scrolled {
+  background-color: #F2911E !important;
+  transition: background-color 200ms linear;
+}
+
+nav{
+    background-color:transparent!important;
+    opacity:0.9;
+    height:100px;
+    margin:0;
+}
+
+/*Add padding to navigation-bar*/
+div#exCollapsingNavbar2 {
+    padding-top: 20px;
+}
+
+ul.cf {
+    background-color: transparent!important;
+    padding-top:10px;
+}
+
+a.navbar-brand {
+    background: transparent!important;
+}
+
+
+a.active {
+    background: transparent!important;
+    color:white!important;
+}
+
+a {
+    background: transparent!important;
+    color: white!important;
+    border-right:none!important;
+    font-size:18px!important;
+}
+
+
+
+
+nav ul {
+   
+    color:white;
+	-webkit-font-smoothing:antialiased;
+	text-shadow:0 1px 0 #FFF;
+    background: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav li {
+   
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 10%;
+    /*border-right: 1px solid black;*/
+}
+
+
+/*navigation links*/
+nav a {
+    
+    font-family:'Oswald-Stencil'!important;
+    background: #fff;
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font: bold 16px/50px sans-serif;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+nav .dropdown:after {
+    content: ' ▶';
+}
+nav .dropdown:hover:after{
+	content:'\25bc'
+}
+nav li:hover a {
+    background: black;
+    font-size:14px;
+}
+nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+
+
+/*hover*/
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+nav li ul li {
+    float: none;
+    width: 100%;
+}
+
+
+
+
+
+/*background color of hover*/
+
+
+a{
+    
+ text-decoration:none;
+    color: black;
+}    
+    
+a:hover{
+ text-decoration:none;
+    color: black;   
+    
+}
+
+
+
+
+
+
+/*dropdown*/
+a.dropdown {
+   
+    text-decoration:none;
+    color: black;
+}
+
+/*Dropdown Menu Desktop*/
+ul.mydropdown {
+    background-color: #F2951E!important;
+}
+
+
+
+nav li ul a:active {
+    background: orange;
+    color:white;
+    text-decoration:none;
+}
+
+
+
+nav li ul a:focus {
+    background: orange;
+    color:white;
+    text-decoration:none;
+}
+nav li ul a:hover {
+    background: orange;
+    color:white;
+    text-decoration:none;
+}
+
+
+
+
+/* Clearfix */
+
+.cf:after, .cf:before {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+
+
+
+
+/********************************************************************
+* Navigation Mobile Toggle
+********************************************************************/
+
+button.navbar-toggler.hidden-md-up {
+    color: white!important;
+    font-size:30px;
+    border:0!important;
+    outline:none!important;
+}
+
+
+button.navbar-toggler.hidden-lg-up {
+    font-size: 40px;
+    /* padding-bottom: 50px; */
+    margin-top: -50px;
+}
+
+
+img.logo {
+    
+ margin-left:30%; 
+ margin-top:15px;
+ width:24%;
+ height:100%;
+    
+}
+
+
+/*media queries navigation mobile 991px*/
+
+@media (max-width:991px){
+
+button.navbar-toggler.hidden-lg-up {
+    margin-top:30px;
+    position:absolute;
+    top:0;
+    left:0;
+    font-size: 40px;
+    border:none;
+    outline:0;
+    
+}
+
+
+
+
+}
+
+
+/********************************************************************
+* NAVBAR  Mobile OVERlay
+********************************************************************/
+
+/*close Button*/
+span.glyphicon.glyphicon-remove {
+    position: absolute;
+    top: -50px;
+    right: 45px;
+    font-size: 60px;
+    float:right;
+    
+}
+
+
+
+
+
+
+/*Changes Screen Color on Mobile device*/
+
+div#nav-modal {
+    background-color: black;
+    opacity:0.7;
+ 
+
+}
+
+
+
+navbar-toggle {
+  float: left !important;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+
+/*Content Holder*/
+.modal-nav-content {
+  
+  width: 100%;
+  height: auto;
+}
+
+.modal-nav-body {
+  margin-top: 100px; 
+}
+
+.modal-nav-body ul {
+    background-color:transparent!important;
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*modal font-size*/
+.modal-nav-body ul li {
+  text-align: center;
+  font-size: 160%;
+  padding: 8px;
+  text-transform: uppercase;
+   transition: 0.3s!important;
+}
+
+
+modal-nav-body ul li a{
+
+    color:orange!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************
+* HEADER
+********************************************************************/
+
+
+
+
+
+
+
+/********************************************************************
+* SECTION SEARCH
+********************************************************************/
+
+
+
+
+/*=====================================================/*
+  Max-width 764px Responsive Querys
+/*=====================================================*/
+
+@media(max-width:764px){
+
+
+
+}
+
+/*=====================================================/*
+  Max-width 662px Responsive Querys
+/*=====================================================*/
+
+@media(max-width:662px){
+    
+  
+     .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: left;
+    }
+    .navbar-brand {
+        display:none!important;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    
+    
+    a.dropdown{
+        
+        width:175px!important
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+        width:75%;
+    }
+    
+   img.featured1 {
+   display:none;
+}
+    nav a{
+        
+     font-size:14px!important;   
+        
+    }
+    
+    }
+
+
+
+
+
+/*=====================================================/*
+  Max-width 600px Responsive Querys
+/*=====================================================*/
+
+@media(max-width:600px){
+  
+     button.navbar-toggler.hidden-sm-up.collapsed{
+color: white!important;
+
+
+ } 
+  
+     .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: left;
+    }
+    .navbar-brand {
+        display:none!important;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    
+    
+    a.dropdown{
+        
+        width:175px!important
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+        width:75%;
+    }
+    
+   img.featured1 {
+   display:none;
+}
+    nav a{
+        
+     font-size:14px!important;   
+        
+    }
+    
+    }
+
+
+
+
+/*=====================================================/*
+  Max-width 541px Responsive Querys
+/*=====================================================*/
+
+@media(max-width:543px) {
+    
+ button.navbar-toggler.hidden-sm-up.collapsed{
+color: white!important;
+
+
+ } 
+
+
+    
+     /*toogle bar*/
+    
+     button.navbar-toggler.hidden-sm-up {
+    color: white!important;
+font-size: 30px!important;
+         outline:none!important;
+         border:0;
+
+}
+
+/*Mobile transition on hover*/
+li > a{
+font-size:20px;
+
+}
+
+nav li:hover a {
+    background: black;
+    font-size:24px;
+}
+
+
+
+
+
+    
+    nav li {
+    width: 100%!important;
+        
+        
+    }
+    
+    nav li a{
+        
+        font-size:24px!important;
+    }
+    
+    
+   
+
+}
+
+
+
+/********************************************************************
+* Media Queries 480px
+********************************************************************/
+
+@media(max-width: 480px) {
+
+      /*Image Logo mobile*/
+    img.logo {
+         display:block;
+        margin-left:70%!important;
+       
+}
+    
+    /*toogle bar*/
+    
+     button.navbar-toggler.hidden-sm-up {
+         margin-top:0;
+         padding:0;
+    color: white;
+font-size: 30px!important;
+         outline:none!important;
+         border:0;
+}
+
+ul{
+width:100%;
+
+}
+
+li{
+width:100%;
+color:black;
+
+}
+
+/*Mobile transition on hover*/
+li > a{
+font-size:24px;
+
+}
+
+nav li:hover a {
+    background: black;
+    font-size:28px;
+}
+
+
+
+
+}
+
+/********************************************************************
+* Media Queries 364px
+********************************************************************/
+
+@media(max-width: 364px) {
+    
+    
+    /*toogle bar*/
+    
+     button.navbar-toggler.hidden-sm-up {
+    color: white;
+    font-size: 30px!important;
+         outline:none!important;
+         border:0;
+}  
+
+
+ul{
+width:100%;
+
+}
+
+li{
+width:100%;
+color:black;
+
+}
+
+li > a{
+font-size:20px;
+
+}
+
+/*Mobile transition on hover*/
+li > a{
+font-size:20px;
+
+}
+
+nav li:hover a {
+    background: black;
+    font-size:24px;
+}
+
+
+
+ 
+
+}

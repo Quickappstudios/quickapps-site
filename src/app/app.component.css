@@ -1,0 +1,46 @@
+/*
+ * General
+ */
+
+html,body{
+
+    height:100%;
+    background-color:#1e202c!important;
+     padding:0;
+    margin:0;
+
+}
+
+body{
+
+color:#fff!important;
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+a{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+p{
+font-family:'Open Sans'
+
+}
+
+
+
+.container-fluid{
+    
+    padding:0;
+    margin:0;
+}

@@ -7,8 +7,111 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="http://bootswatch.com/darkly/bootstrap.min.css">
+ <!--Bootstrap 4 cdn-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+<!-- Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--animate.css-->
+    <link rel ="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" 
+
+    <!--font roboto slab-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!--open sans-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Slab" rel="stylesheet">
+<!--Roboto Light-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Slab|Roboto:300" rel="stylesheet">
+<!--Muli font-->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<!--sriracha font-->
+    <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
+<!--short stack-->
+    <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+<!--Valera Round-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<!--Swipper Css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.css" rel="stylesheet">
 </head>
 <body>
+  <base href="/">
   <app-root>Loading...</app-root>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+
+<!--Change Navigation color on scroll-->
+<script>$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+})
+
+
+
+</script>
+
+
+
+                   <!--
+********************************************************************
+* Javascipt
+********************************************************************
+--> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<!--swiper library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.min.js"></script>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+      
+      <!--wow js animation is called-->
+     
+      <script>
+            new WOW().init();
+</script>
+
+
+
+
+
+
+<!--hide and open and close  menu-->
+
+
+
+<script>
+function openNav() {
+    document.getElementById("navbar").style.width = "100%";
+}
+
+//Change dom color to transparent on close javascript css
+function closeNav() {
+    document.getElementById("nav-modal").style.width = "0%";
+}
+</script>
+
+
+
+
+
+
+
+
+  <!--call Carousel for 3 seconds-->
+   <!--<script>
+     $('#carousel').carousel('next')({
+  interval: 3000
+})
+     
+     </script>  -->
 </body>
+
+
 </html>

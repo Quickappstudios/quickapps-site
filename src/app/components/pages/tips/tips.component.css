@@ -1,0 +1,313 @@
+section#tips{
+    padding-top:90px;
+    padding-bottom:90px;
+
+}
+
+img.tips-image{
+    margin-bottom:30px;
+}
+
+#tips h2{
+ margin-bottom:30px;
+
+}
+
+
+
+
+/*create parralax scroll effect bg tips*/
+.tips{
+height: 100vh;
+    
+background:url('./assets/images/tipsbg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+.tips-search{
+
+position:absolute;
+top:200px;
+}
+
+.tips-search h2{
+    color: white!important;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif!important;
+font-weight: 900;
+padding-bottom:30px;
+
+
+}
+
+.tips-search h3{
+    font-family: 'Muli', sans-serif!important;
+color: white!important;
+    font-size: 28px;
+    margin-bottom:15px;
+
+}
+
+/*button*/
+button.btn.btn-warning.btn-lg {
+    margin-top:15px;
+    width: 60%;
+    height: 60px;
+    font-size: 28px;
+    border:none;
+    outline:0px;
+    font-weight:900;
+}
+
+
+
+
+img.banner-tips{
+width:100%;
+
+}
+
+/********************************************************************
+*  Business tips whiteboard
+********************************************************************
+*/
+section#tip-white{
+
+margin-top:90px;
+margin-bottom:30px;
+
+
+}
+
+#tip-white h2{
+
+font-family: 'Muli', sans-serif!important;
+    font-size: 60px;
+    color: coral;
+    font-weight:900;
+
+}
+
+#tip-white h3{
+ margin-bottom:15px;
+}
+
+
+         
+/********************************************************************
+* Parrallax Image Business tips
+********************************************************************
+*/
+.tips-bg{
+height: 100vh;
+    
+background:url('./assets/images/tips-bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+
+
+/********************************************************************
+*  Ranking tips whiteboard
+********************************************************************
+*/
+section#ranking-white{
+
+margin-top:90px;
+margin-bottom:60px;
+
+
+}
+
+#ranking-white h2{
+
+font-family: 'Muli', sans-serif!important;
+    font-size: 60px;
+   
+    color: coral;
+    font-weight:900;
+    line-height:70px;
+
+}
+
+#ranking-white h3{
+ margin-bottom:15px;
+}
+
+p.lead {
+    font-size: 22px;
+    text-align:center;
+}
+
+
+         
+/********************************************************************
+* Parrallax Image Ranking tips
+********************************************************************
+*/
+.ranking-bg{
+height: 100vh;
+    
+background:url('./assets/images/ranking_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+
+
+/********************************************************************
+* Parrallax Image Ranking tips
+********************************************************************
+*/
+.optimize-bg{
+height: 100vh;
+    
+background:url('./assets/images/optimize.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+
+/********************************************************************
+* Parrallax Image Business Buzz
+********************************************************************
+*/
+.business-bg{
+height: 100vh;
+    
+background:url('./assets/images/business-buzz.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+
+
+/********************************************************************
+* Parrallax Image Neccessary
+********************************************************************
+*/
+
+
+.neccessary-bg{
+height: 100vh;
+    
+background:url('./assets/images/neccessary-bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+
+
+/********************************************************************
+* Parrallax Image Neccessary
+********************************************************************
+*/
+
+
+.expert-bg{
+height: 100vh;
+    
+background:url('./assets/images/expert_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+/********************************************************************
+* Parrallax Image Consumers
+********************************************************************
+*/
+
+
+.consumers-bg{
+height: 100vh;
+    
+background:url('./assets/images/consumers_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+
+/********************************************************************
+* Parrallax Image Consumers
+********************************************************************
+*/
+
+
+.online-bg{
+height: 100vh;
+    
+background:url('./assets/images/online_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+
+
+
+
